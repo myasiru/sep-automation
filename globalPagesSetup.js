@@ -8,6 +8,7 @@ import { ReviewPaymentPage } from "./pages/ReviewPaymentPage.js";
 
 /**
  * @type {import('./pages/LeftMainPage.js').LeftMainPage}
+ * @type {import('./pages/LeftMainPage.js').LeftMainPage}
  */
 export let leftMainPage;
 
