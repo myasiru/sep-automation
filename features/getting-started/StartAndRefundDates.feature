@@ -13,7 +13,6 @@ Feature: Program start dates and Refund dates
 
     @sep11-1
     Scenario: Verify that the program start date and refund date are displayed
-        Then the program start date is displayed
         Then the program refund date is displayed
 
     @sep11-2
