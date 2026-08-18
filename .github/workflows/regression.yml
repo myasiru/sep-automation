@@ -43,7 +43,7 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Run Playwright tests
-        run: npm run tests:headless
+        run: npm run test
 
       - name: Upload Playwright test results
         if: ${{ !cancelled() }}
